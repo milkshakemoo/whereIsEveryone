@@ -1,0 +1,32 @@
+.container1{
+    height: 100%;
+    width:100%;
+    background-color:beige;
+    display:flex;
+}
+
+.item1{
+    height:70rpx;
+    width:70%;
+    background-color:#ffffff;
+    border: 1px solid #a39391;
+    font-family:"华文细黑";
+}
+.item2{
+    height:70rpx;
+    background-color:#ffffff;
+    width:30%;
+    border: 1px solid #a39391
+}
+.headline{
+  font-weight:bold;
+  margin-top: 8rpx;
+  height: 70rpx;
+  align-items:center;
+}
+.btn{
+  background-color: #666666;
+  color: #FFF;
+  margin: 10rpx 50rpx 10rpx 50rpx;
+}
+
