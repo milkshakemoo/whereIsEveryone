@@ -1,0 +1,31 @@
+
+<view class='headline'>
+  <text>房间号: {{roomNum}}</text> 
+</view>
+
+
+<view class="container1">
+<view class="item1">学号</view>
+<view class="item2">距离(km)</view>
+</view>
+
+<scroll-view scroll-y="true" style="height:580rpx">
+<view  style="margin:30rpx">
+
+
+<view class="container1" wx:for="{{userList}}" data-index="{{index}}" bindtap='seeMap'>
+<view class="item1">{{item.name}}</view>
+<button class="item2">{{item.distance}}</button>
+</view>
+
+
+
+</view>
+</scroll-view>
+
+<view>
+<view style="margin:50rpx">共计学生{{length}}人</view>
+<button bindtap="allMap" class="btn">地图显示</button>
+<button bindtap="refresh" class="btn">刷新页面</button>
+<button bindtap="leave" class="btn">离开房间</button>
+</view>
