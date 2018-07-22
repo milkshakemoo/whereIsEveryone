@@ -1,3 +1,0 @@
-<view>
-    <map longitude="{{long}}" latitude="{{lat}}" scale="18" markers="{{markers}}" covers="{{covers}}" wx:if="{{map}}"></map>
-</view>
